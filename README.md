@@ -9,10 +9,7 @@ pages for that conference
   * conference id can be found in a comment on the vault
 browse page
 
-2. ```bash
-npm install
-node index
-```
+2. `npm install && node index`
 
 3. nice
 
