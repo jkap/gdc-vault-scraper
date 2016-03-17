@@ -37,6 +37,6 @@ async.whilst(
       .map(he.decode)
       .value()
       .join('\n');
-    fs.writeFileSync(`${CONF_ID}-titles.txt`, titles, 'utf-8');
+    fs.writeFileSync(`titles/${CONF_ID}-titles.txt`, titles, 'utf-8');
   }
 );
